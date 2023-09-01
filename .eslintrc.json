@@ -1,5 +1,11 @@
 {
   "$schema": "https://json.schemastore.org/eslintrc",
   "root": true,
-  "ignorePatterns": ["dist"]
+  "ignorePatterns": ["dist"],
+  "parser": "@babel/eslint-parser",
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2015
+  },
+  "plugins": ["react"]
 }
