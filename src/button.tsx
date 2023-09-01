@@ -1,9 +1,12 @@
 export interface ButtonProps
   extends React.ButtonHTMLAttributes<HTMLButtonElement> {}
 
-const Button = () => {
+const Button = (props: ButtonProps) => {
   return (
-    <button className="bg-red-600 text-white px-4 py-3 rounded-md flex items-center justify-center text-base">
+    <button
+      className="flex items-center justify-center px-4 py-3 text-base text-white bg-red-600 rounded-md"
+      {...props}
+    >
       Button
     </button>
   );
