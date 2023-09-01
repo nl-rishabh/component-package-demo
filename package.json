@@ -15,7 +15,8 @@
     "dev": "tsup src/index.tsx --format esm,cjs --watch --dts --external react",
     "lint": "eslint \"src/**/*.ts*\"",
     "clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
-    "build:css": "npx tailwindcss -o build.css --minify"
+    "build:css": "npx tailwindcss -o build.css --minify",
+    "commit": "commit"
   },
   "keywords": [
     "component library",
@@ -24,10 +25,13 @@
   "author": "Rishabh Dixit",
   "devDependencies": {
     "@changesets/cli": "^2.26.2",
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
     "@types/react": "^18.2.20",
     "@types/react-dom": "^18.2.7",
     "autoprefixer": "^10.4.15",
     "eslint": "^8.47.0",
+    "husky": "^8.0.3",
     "postcss": "^8.4.28",
     "react": "^18.2.0",
     "tailwindcss": "^3.3.3",
