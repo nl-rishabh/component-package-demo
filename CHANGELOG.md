@@ -1,5 +1,11 @@
 # @nl-rishabh/component-package-demo
 
+## 0.1.1
+
+### Patch Changes
+
+- fdaea51: fixed react reference error
+
 ## 0.1.0
 
 ### Minor Changes
