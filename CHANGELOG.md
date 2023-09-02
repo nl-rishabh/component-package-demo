@@ -1,5 +1,11 @@
 # @nl-rishabh/component-package-demo
 
+## 0.2.0
+
+### Minor Changes
+
+- [#4](https://github.com/nl-rishabh/component-package-demo/pull/4) [`9e661bb`](https://github.com/nl-rishabh/component-package-demo/commit/9e661bb3bd929928b41710f57a7db51a9b410a9c) Thanks [@nl-rishabh](https://github.com/nl-rishabh)! - new input element
+
 ## 0.1.2
 
 ### Patch Changes
