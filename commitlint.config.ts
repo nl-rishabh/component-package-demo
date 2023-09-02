@@ -18,10 +18,10 @@ const Configuration = {
     messages: {},
     questions: {
       type: {
-        description: "please input type:"
-      }
-    }
-  }
+        description: "please input type:",
+      },
+    },
+  },
 } satisfies UserConfig;
 
 export default Configuration;
