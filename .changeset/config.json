@@ -2,7 +2,7 @@
   "$schema": "https://unpkg.com/@changesets/config@2.3.1/schema.json",
   "changelog": [
     "@changesets/changelog-github",
-    { "repo": "@nl-rishabh/component-package-demo" }
+    { "repo": "nl-rishabh/component-package-demo" }
   ],
   "commit": false,
   "fixed": [],
