@@ -1,5 +1,11 @@
 # @nl-rishabh/component-package-demo
 
+## 0.2.1
+
+### Patch Changes
+
+- [`6538acf`](https://github.com/nl-rishabh/component-package-demo/commit/6538acf55af9cb0c123c8ab088d9e9e197d262a9) Thanks [@nl-rishabh](https://github.com/nl-rishabh)! - fixed button color
+
 ## 0.2.0
 
 ### Minor Changes
